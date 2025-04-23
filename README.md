@@ -113,8 +113,8 @@ chi2,p,_,_=chi2_contingency(contingency_table)
 print('Chi-square statistic:',chi2)
 print('p-value:',p)
 ```
-Chi-square statistic: 9.343808982970623
-p-value: 0.002237400118075248
+![image](https://github.com/user-attachments/assets/4ca618ac-49ae-42e9-b529-57ffd2b87b72)
+
 ```
 import pandas as pd
 from sklearn.feature_selection import SelectKBest, mutual_info_classif, f_classif
@@ -137,6 +137,6 @@ print(selected_features)
 ![image](https://github.com/user-attachments/assets/a058a847-d215-466e-8bab-1881c6bb6125)
 
 # RESULT:
-thus, read the given data and perform Feature Scaling and Feature Selection process and save the
+Thus, read the given data and perform Feature Scaling and Feature Selection process and save the
 data to a file.
 
